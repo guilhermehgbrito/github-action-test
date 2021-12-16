@@ -10,5 +10,5 @@ jobs:
         run: echo "Hello world"
       - name: multine script
         run: |
-          node -v
+          noe -v
           npm -v
