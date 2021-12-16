@@ -10,5 +10,10 @@ jobs:
         run: echo "Hello world"
       - name: multine script
         run: |
-          noe -v
+          node -v
           npm -v
+      - name: python command
+        run: |
+          import plataform
+          print(plataform.processor())
+        shell: python
